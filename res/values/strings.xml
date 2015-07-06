@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Testp!</string>
+	<string name="app_name">Testp</string>
+	<string name="color">自定义颜色进度条</string>
+	<string name="left">自左向右的进度条</string>
+	<string name="right">自右向左的进度条</string>
+	<string name="indeter">不确定的进度条</string>
+</resources>

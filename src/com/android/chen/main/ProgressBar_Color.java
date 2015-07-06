@@ -9,29 +9,33 @@ import android.widget.ProgressBar;
 import com.android.chen.util.IntentUtils;
 
 /**
- * <Ò»¾ä»°¹¦ÄÜ¼òÊö>´Ó×óÏòÓÒÔË¶¯µÄ×Ô¶¨ÒåÑÕÉ«½ø¶ÈÌõ<BR>
- * <¹¦ÄÜÏêÏ¸ÃèÊö>
+ * <Ò»ï¿½ä»°ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¶ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½ï¿½<BR>
+ * <ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½ï¿½ï¿½>
  * 
  * @author chenli
- * @version [°æ±¾ºÅ, 2011-4-8]
- * @see [Ïà¹ØÀà/·½·¨]
- * @since [²úÆ·/Ä£¿é°æ±¾]
+ * @version [ï¿½æ±¾ï¿½ï¿½, 2011-4-8]
+ * @see [ï¿½ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½]
+ * @since [ï¿½ï¿½Æ·/Ä£ï¿½ï¿½æ±¾]
  */
 public class ProgressBar_Color extends Activity
 {
 
     /**
-     * ½ø¶ÈÌõ
+     * ï¿½ï¿½ï¿½ï¿½ï¿½
      */
     private ProgressBar mColor = null;
 
     /**
-     * µ±Ç°½ø¶ÈµÄÖµ
+     * ï¿½ï¿½Ç°ï¿½ï¿½Èµï¿½Öµ
      */
-    private int mCount = 0;
+    private int mCount = 0;  
+    
+    
+    
+    //===============
 
     /**
-     * HandlerÏûÏ¢´¦Àí
+     * Handlerï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½
      */
     private Handler mHandler = new Handler()
     {
@@ -53,14 +57,16 @@ public class ProgressBar_Color extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mypage_color);
 
-        showIndeterDialog();
+        showIndeterDialog();  
+        
+        System.out.println("sdfsdf");
     }
 
     /**
-     * <Ò»¾ä»°¹¦ÄÜ¼òÊö>Õ¹Ê¾½ø¶ÈÌõµÄ½ø¶È<BR>
-     * <¹¦ÄÜÏêÏ¸ÃèÊö>
+     * <Ò»ï¿½ä»°ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½>Õ¹Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä½ï¿½ï¿½<BR>
+     * <ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½ï¿½ï¿½>
      * 
-     * @see [Àà¡¢Àà#·½·¨¡¢Àà#³ÉÔ±]
+     * @see [ï¿½à¡¢ï¿½ï¿½#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½#ï¿½ï¿½Ô±]
      */
     private void showIndeterDialog()
     {
